@@ -49,7 +49,7 @@ const AboutMe = () => {
                       Computer Technology.
                     </p>
 
-                    <div class="lead btn1 from-left " href="">
+                    <div class="lead btn1 from-left " href="https://drive.google.com/file/d/1F2u8Y9jm45BSkyihMKZDK9JZ7E97PxDq/view?usp=sharing">
                       Resume
                     </div>
                   </p>
