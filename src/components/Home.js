@@ -37,7 +37,7 @@ const Home = () => {
                   I'm Rushikesh Pallod
                 </div>
                 <div className="greeting-text__bio text-center">
-                  Web Developer | Competitive Programmer
+                  Product Management Intern
                 </div>
               </div>
 
