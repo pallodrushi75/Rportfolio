@@ -8,7 +8,7 @@ import Proj2 from "../assets/img/proj2.png";
 import Proj3 from "../assets/img/proj3.png";
 import Footer from "../components/Footer";
 
-const Project = () => {
+const CaseStudy = () => {
   return (
     <Fragment>
       <div className="container section">
@@ -165,4 +165,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default CaseStudy;

@@ -36,9 +36,10 @@ const Home = () => {
                 <div className="h1 greeting-text__name">
                   I'm Rushikesh Pallod
                 </div>
-                <div className="greeting-text__bio text-center">
-                  Product Management Intern
+                <div className="greeting-text__bio ">
+                  Product Management
                 </div>
+                <p>Team player with strong communication skills and an analytical and problem-solving attitude. Highly motivated individual with leadership skills.</p>
               </div>
 
               {/* Social Media */}
