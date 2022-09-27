@@ -48,12 +48,13 @@ const Navbar = () => {
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
-              to="/education"
+              to="/about"
               activeClassName="active"
               className="nav-link nav-text"
             >
-              Education
+              About Me
             </NavLink>
+
           </li>
           <li className="nav-item mr-4">
             <NavLink

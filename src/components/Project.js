@@ -11,11 +11,11 @@ import Footer from "../components/Footer";
 const Project = () => {
   return (
     <Fragment>
-      <div className="container section">
+      <div className="container section casestudy">
 
  
         <div className="row section">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-5">
             <img
               data-aos="flip-left"
               data-aos-duration="1000"
@@ -27,7 +27,7 @@ const Project = () => {
           <div
             data-aos="fade-left"
             data-aos-duration="1000"
-            className="col-12 col-md-6"
+            className="col-12 col-md-7"
           >
             <div>
               <p className="h1 title">Basic Banking System</p>
@@ -67,10 +67,19 @@ const Project = () => {
 
 
         <div className="row section">
+        <div className="col-12 col-md-5">
+            <img
+              data-aos="flip-left"
+              data-aos-duration="1000"
+              src={Proj2}
+              alt="Banking System"
+              className="pr-image"
+            />
+          </div>
         <div
             data-aos="fade-left"
             data-aos-duration="1000"
-            className="col-12 col-md-6"
+            className="col-12 col-md-7"
           >
             <div>
               <p className="h1 title">Github Search</p>
@@ -105,20 +114,12 @@ const Project = () => {
               </a>
             </div>
           </div>
-          <div className="col-12 col-md-6">
-            <img
-              data-aos="flip-left"
-              data-aos-duration="1000"
-              src={Proj2}
-              alt="Banking System"
-              className="pr-image"
-            />
-          </div>
+
 
         </div>
 
         <div className="row section">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-5">
             <img
               data-aos="flip-left"
               data-aos-duration="1000"
@@ -130,7 +131,7 @@ const Project = () => {
           <div
             data-aos="fade-left"
             data-aos-duration="1000"
-            className="col-12 col-md-6"
+            className="col-12 col-md-7"
           >
             <div>
               <p className="h1 title">Hand Gesture Controlled Media</p>

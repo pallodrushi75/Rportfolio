@@ -5,6 +5,7 @@ import HomeBio from "../assets/img/Home-bio.png";
 import { render } from "react-dom";
 import Case1 from "../assets/img/case1.png";
 import Case2 from "../assets/img/case2.png";
+import inshort from "../assets/img/inshort.png";
 import Case3 from "../assets/img/case3.webp";
 import Proj2 from "../assets/img/proj2.png";
 import Proj3 from "../assets/img/proj3.png";
@@ -13,14 +14,14 @@ import Footer from "../components/Footer";
 const CaseStudy = () => {
   return (
     <Fragment>
-      <div className="container section">
+      <div className="container section casestudy">
 
  
         <div className="row section">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-5">
             <img
               data-aos="flip-left"
-              data-aos-duration="1000"
+              data-aos-duration="900"
               src={Case1}
               alt="Banking System"
               className="pr-image"
@@ -28,8 +29,8 @@ const CaseStudy = () => {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-duration="1000"
-            className="col-12 col-md-6"
+            data-aos-duration="900"
+            className="col-12 col-md-7"
           >
             <div>
               <p className="h1 title">Product Improvement - Bumble</p>
@@ -59,10 +60,19 @@ Wireframing and deciding metrics was also a part of this project at the DoremonD
 
 
         <div className="row section">
+        <div className="col-12 col-md-5">
+            <img
+              data-aos="flip-left"
+              data-aos-duration="900"
+              src={Case2}
+              alt="Banking System"
+              className="pr-image"
+            />
+          </div>
         <div
             data-aos="fade-left"
-            data-aos-duration="1000"
-            className="col-12 col-md-6"
+            data-aos-duration="900"
+            className="col-12 col-md-7"
           >
             <div>
               <p className="h1 title">Discord Innovative Features</p>
@@ -89,32 +99,24 @@ style of presentation to complete your answers.
               </a>
             </div>
           </div>
-          <div className="col-12 col-md-6">
-            <img
-              data-aos="flip-left"
-              data-aos-duration="1000"
-              src={Case2}
-              alt="Banking System"
-              className="pr-image"
-            />
-          </div>
+
 
         </div>
 
         <div className="row section">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-5">
             <img
               data-aos="flip-left"
-              data-aos-duration="1000"
-              src={Case3}
+              data-aos-duration="900"
+              src={inshort}
               alt="Banking System"
               className="pr-image"
             />
           </div>
           <div
             data-aos="fade-left"
-            data-aos-duration="1000"
-            className="col-12 col-md-6"
+            data-aos-duration="900"
+            className="col-12 col-md-7"
           >
             <div>
               <p className="h1 title">News Aggregator Platform </p>
