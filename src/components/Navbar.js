@@ -41,21 +41,7 @@ const Navbar = () => {
             </NavLink>
           </li>
 
-          <li className="nav-item mr-4">
-            <NavLink
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-              to="/about"
-              activeClassName="active"
-              className="nav-link nav-text"
-            >
-              About Me
-            </NavLink>
 
-          </li>
           <li className="nav-item mr-4">
             <NavLink
               data-toggle="collapse"
